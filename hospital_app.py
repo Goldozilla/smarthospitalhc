@@ -22,7 +22,7 @@ def load_model():
    return pickle.load(f)
 
 bundle = load_model()
-model = bundle['model]
+model = bundle['model']
 scaler = bundle['scaler']
 features = bundle['features']
 cols_to_scale = bundle['cols_to_scale']
