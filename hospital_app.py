@@ -76,7 +76,7 @@ st.markdown("""
   </div>
  """,unsafe_allow_html=True)
 
-with st.form("triage_form")
+with st.form("triage_form"):
 
  st.markdown("""
  <div style="background-color: grey;border: 1px solid blue;border-radius: 10px; padding: 20px 24px; margin-bottom :20px;">
